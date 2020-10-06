@@ -1,0 +1,72 @@
+/*
+The layout for the rest of this css is a modified version from:
+http://www.maxdesign.com.au/articles/process/
+
+Students are encouraged to read this article.  Great explanation of some sound design concepts with attractive examples provided.
+
+You can cut and paste this at the bottom of your existing css file, and when used in conjunction with the css_layout.html file you unzipped, can wrap your pages into this site.
+*/
+
+table, th, td {
+		background-color: beige;
+		border: 1px solid black;
+		border-collapse:collapse;
+    		padding: 15px;
+    		margin: 10px;
+}
+
+body{
+	margin-top: 40px;
+	color: #000;
+	font-family: sans-serif;
+	width: 95%;
+	height: 590px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	background-size: 1280px 650px;
+}
+
+.menu {
+	display: 	inline-block;	
+	background: rgba(0, 0, 0, 0.5);
+}
+.menu .btn{
+		
+	font-family: sans-serif;
+	float: 	left;
+}
+
+.dropdown .dropbtn {
+  	font-size: 18px;  
+  	border: none;
+	padding: 14px 16px;
+	font-family: inherit;
+  	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: aquamarine;
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
